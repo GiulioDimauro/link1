@@ -1,0 +1,659 @@
+#ss {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  color: white;
+  font-size: 24px;
+}
+
+#ss::placeholder {
+  color: white;
+  font-size: 24px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-child,
+.home-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-child {
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.header-child {
+  background-color: var(--color-black);
+}
+.header-item {
+  position: absolute;
+  top: 41px;
+  left: 1143px;
+  width: 0;
+  height: 0.5px;
+  object-fit: contain;
+}
+.hero-header-f,
+.text,
+.text1,
+.text2 {
+  position: absolute;
+  top: calc(50% - 18px);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+}
+.text {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  left: 1068px;
+  color: var(--color-white);
+  text-align: center;
+  padding: 0;
+}
+.hero-header-f,
+.text1,
+.text2 {
+  left: 953px;
+  width: 68px;
+  min-width: 68px;
+}
+.hero-header-f,
+.text2 {
+  left: 1184px;
+  width: 80px;
+  min-width: 80px;
+}
+.hero-header-f {
+  left: 1301px;
+  width: 89px;
+  min-width: 89px;
+  white-space: nowrap;
+}
+.header-child1,
+.header-inner,
+.icons8-ricerca-500-1,
+.line-icon {
+  position: absolute;
+  top: 0;
+  left: 1285px;
+  width: 1px;
+  height: 72px;
+  object-fit: contain;
+}
+.header-child1,
+.icons8-ricerca-500-1,
+.line-icon {
+  left: 1164px;
+}
+.header-child1,
+.icons8-ricerca-500-1 {
+  left: 1406px;
+}
+.icons8-ricerca-500-1 {
+  top: 22px;
+  left: 1442px;
+  width: 29px;
+  height: 29px;
+}
+.search {
+  position: absolute;
+  top: 22px;
+  left: 1482px;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  text-align: right;
+  display: inline-block;
+  min-width: 77px;
+}
+.header-child2 {
+  left: 1042px;
+  width: 1px;
+  object-fit: contain;
+}
+.header-child2,
+.header-child3,
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  height: 72px;
+}
+.header-child3 {
+  left: 933px;
+  width: 1px;
+  object-fit: contain;
+}
+.rectangle-icon {
+  left: 8px;
+  border-radius: var(--br-31xl);
+  width: 8px;
+}
+.visioni-illustrate {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 26px;
+  font-size: var(--font-size-13xl);
+  text-align: left;
+  display: inline-block;
+  width: 282px;
+  white-space: nowrap;
+}
+.header,
+.hero-child {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.header {
+  height: 72px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.hero-child {
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-black);
+}
+.contemporanea,
+.nellillustrazione,
+.viaggio {
+  margin: 0;
+}
+.viaggio-nellillustrazione-con-container {
+  position: absolute;
+  height: 22.97%;
+  width: 15.44%;
+  top: 1.78%;
+  left: 18.88%;
+  display: inline-block;
+}
+.hero-item {
+  height: 100%;
+  width: 0.5%;
+  top: 0;
+  right: 83.69%;
+  bottom: 0;
+  left: 15.81%;
+  border-radius: var(--br-31xl);
+}
+.hero-inner,
+.hero-item,
+.icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hero-inner {
+  height: 85.66%;
+  width: 0.5%;
+  top: 14.34%;
+  right: 51.19%;
+  bottom: 0;
+  left: 48.31%;
+  border-radius: var(--br-31xl);
+}
+.icon {
+  height: 39.37%;
+  width: 21.25%;
+  top: 37.62%;
+  right: 57.06%;
+  bottom: 23.01%;
+  left: 21.69%;
+  object-fit: cover;
+}
+.info-inaugurazione {
+  margin: 0;
+}
+.may-1st-600 {
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.may-1st-600-pm-2024-accade {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+}
+.artist-name-t-container {
+  position: absolute;
+  height: 28.51%;
+  width: 31.75%;
+  top: 69.9%;
+  left: 52.06%;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+}
+.painting-shop-kate-roebuck-s {
+  position: absolute;
+  height: 39.21%;
+  width: 23.44%;
+  top: 15.64%;
+  right: 22.38%;
+  bottom: 45.15%;
+  left: 54.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.hero,
+.hero2-child {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.hero {
+  top: 78px;
+  height: 505px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.hero2-child {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-black);
+}
+.jean-jullien {
+  position: absolute;
+  height: 1.93%;
+  width: 9.25%;
+  top: 37.54%;
+  left: 17.44%;
+  display: inline-block;
+}
+.hero2-child1,
+.hero2-inner,
+.hero2-item {
+  position: absolute;
+  height: 18.41%;
+  width: 0.5%;
+  top: 20.66%;
+  right: 83.69%;
+  bottom: 60.93%;
+  left: 15.81%;
+  border-radius: var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hero2-child1,
+.hero2-inner {
+  top: 44.92%;
+  bottom: 36.68%;
+}
+.hero2-child1 {
+  top: 69.17%;
+  bottom: 12.43%;
+}
+.text3 {
+  position: absolute;
+  width: 16.31%;
+  top: 10.37%;
+  left: 16.69%;
+  font-size: var(--font-size-13xl);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+.hero2-child2,
+.hero2-child3,
+.hero2-child4,
+.hero2-child5 {
+  position: absolute;
+  height: 13.55%;
+  width: 0.5%;
+  top: 0;
+  right: 83.69%;
+  bottom: 86.45%;
+  left: 15.81%;
+  border-radius: var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hero2-child3,
+.hero2-child4,
+.hero2-child5 {
+  height: 18.41%;
+  top: 20.66%;
+  right: 59.13%;
+  bottom: 60.93%;
+  left: 40.38%;
+}
+.hero2-child4,
+.hero2-child5 {
+  top: 44.92%;
+  bottom: 36.68%;
+}
+.hero2-child5 {
+  top: 69.17%;
+  bottom: 12.43%;
+}
+.hattie-clark {
+  position: absolute;
+  top: 37.54%;
+  left: 41.69%;
+}
+.hero2-child6,
+.hero2-child7,
+.hero2-child8 {
+  position: absolute;
+  height: 18.41%;
+  width: 0.5%;
+  top: 20.66%;
+  right: 34.56%;
+  bottom: 60.93%;
+  left: 64.94%;
+  border-radius: var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hero2-child7,
+.hero2-child8 {
+  top: 44.92%;
+  bottom: 36.68%;
+}
+.hero2-child8 {
+  top: 69.17%;
+  bottom: 12.43%;
+}
+.paul-blow {
+  position: absolute;
+  top: 37.14%;
+  left: 66.25%;
+  display: inline-block;
+  min-width: 110px;
+}
+.martina-paukova {
+  position: absolute;
+  top: 61.79%;
+  left: 17.13%;
+}
+.adrian-johnson,
+.michelle-thompson {
+  position: absolute;
+  top: 61.79%;
+  left: 41.69%;
+}
+.michelle-thompson {
+  left: 66.25%;
+}
+.emily-robertson,
+.icinori,
+.sanna-mander {
+  position: absolute;
+  top: 86.05%;
+  left: 16.94%;
+}
+.emily-robertson,
+.icinori {
+  left: 41.69%;
+}
+.icinori {
+  left: 66.25%;
+  display: inline-block;
+  min-width: 69px;
+}
+.card1-icon,
+.card2-icon,
+.card3-icon,
+.card4-icon,
+.card5-icon,
+.card6-icon,
+.card7-icon,
+.card8-icon,
+.card9-icon {
+  position: absolute;
+  height: 15.95%;
+  width: 18%;
+  top: 20.66%;
+  right: 64.56%;
+  bottom: 63.39%;
+  left: 17.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+.card2-icon,
+.card3-icon,
+.card4-icon,
+.card5-icon,
+.card6-icon,
+.card7-icon,
+.card8-icon,
+.card9-icon {
+  top: 44.92%;
+  bottom: 39.14%;
+}
+.card2-icon,
+.card3-icon,
+.card5-icon,
+.card6-icon,
+.card7-icon,
+.card8-icon,
+.card9-icon {
+  top: 69.17%;
+  bottom: 14.88%;
+}
+.card2-icon,
+.card3-icon,
+.card5-icon,
+.card6-icon,
+.card8-icon,
+.card9-icon {
+  top: 20.66%;
+  right: 40%;
+  bottom: 63.39%;
+  left: 42%;
+}
+.card3-icon,
+.card5-icon,
+.card6-icon,
+.card8-icon,
+.card9-icon {
+  top: 44.92%;
+  bottom: 39.14%;
+}
+.card3-icon,
+.card6-icon,
+.card8-icon,
+.card9-icon {
+  top: 69.17%;
+  bottom: 14.88%;
+}
+.card3-icon,
+.card6-icon,
+.card9-icon {
+  top: 20.66%;
+  right: 15.44%;
+  bottom: 63.39%;
+  left: 66.56%;
+}
+.card6-icon,
+.card9-icon {
+  top: 44.92%;
+  bottom: 39.14%;
+}
+.card9-icon {
+  top: 69.17%;
+  bottom: 14.88%;
+}
+.footer-child,
+.hero2 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.hero2 {
+  top: 589px;
+  background-color: var(--color-white);
+  height: 1505px;
+  overflow: hidden;
+  mix-blend-mode: luminosity;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.footer-child {
+  top: 0;
+  background-color: var(--color-black);
+  height: 100%;
+}
+.footer-item {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  border-radius: var(--br-31xl);
+  width: 8px;
+  height: 138px;
+}
+.text4 {
+  position: absolute;
+  top: 13px;
+  left: 36px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 480px;
+}
+.blank-line,
+.blank-line1,
+.chi-siamo,
+.privacy,
+.social {
+  margin: 0;
+}
+.text5 {
+  position: absolute;
+  top: -59px;
+  left: 524px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 160px;
+  height: 206px;
+}
+.footer-child1,
+.footer-inner,
+.rectangle-div {
+  position: absolute;
+  height: 23.19%;
+  width: 5.5%;
+  top: 12.32%;
+  right: 62%;
+  bottom: 64.49%;
+  left: 32.5%;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gainsboro);
+}
+.footer-child1,
+.rectangle-div {
+  width: 4.81%;
+  top: 37.68%;
+  right: 62.69%;
+  bottom: 39.13%;
+}
+.footer-child1 {
+  width: 7.38%;
+  top: 63.04%;
+  right: 60.13%;
+  bottom: 13.77%;
+}
+.livello-2-1-icon {
+  position: absolute;
+  height: 72.32%;
+  width: 13.31%;
+  top: 13.77%;
+  right: 15.38%;
+  bottom: 13.91%;
+  left: 71.31%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footer {
+  position: absolute;
+  top: 2100px;
+  left: 0;
+  width: 100%;
+  height: 138px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.home {
+  width: 100%;
+  height: 2238px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 767px) {
+  .text3,
+  .viaggio-nellillustrazione-con-container {
+    font-size: var(--font-size-7xl);
+  }
+  .text3 {
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .viaggio-nellillustrazione-con-container {
+    font-size: var(--font-size-lgi);
+  }
+  .artist-name-t-container {
+    line-height: 38px;
+  }
+  .artist-name-t-container,
+  .jean-jullien {
+    font-size: var(--font-size-lgi);
+  }
+  .text3 {
+    line-height: 29px;
+  }
+  .adrian-johnson,
+  .emily-robertson,
+  .hattie-clark,
+  .icinori,
+  .martina-paukova,
+  .michelle-thompson,
+  .paul-blow,
+  .sanna-mander,
+  .text3,
+  .text4,
+  .text5 {
+    font-size: var(--font-size-lgi);
+  }
+  .text4,
+  .text5 {
+    line-height: 29px;
+  }
+}
